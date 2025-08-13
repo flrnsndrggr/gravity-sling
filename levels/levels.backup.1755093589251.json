@@ -1,0 +1,275 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Training 1",
+      "params": { "globalG": 0.018, "maxSpeed": 22, "frictionAir": 0.002, "fuel": 10, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.5, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 150 } },
+      "start": { "x": 0.15, "y": 0.25 },
+      "targetIndex": 1,
+      "planets": [
+        { "name": "Star", "x": 0.5, "y": 0.5, "r": 36, "mass": 5000, "color": 16769062, "isStar": true },
+        { "name": "Blue", "x": 0.25, "y": 0.35, "r": 18, "mass": 600, "color": 6736895 },
+        { "name": "Red",  "x": 0.7,  "y": 0.65, "r": 22, "mass": 900, "color": 16733562 }
+      ],
+      "collectibles": [
+        { "x": 0.5, "y": 0.35, "type": "fuel", "amount": 4 },
+        { "x": 0.62, "y": 0.62, "type": "score", "amount": 200 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Training 2",
+      "params": { "globalG": 0.017, "maxSpeed": 24, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.55, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 150 } },
+      "start": { "x": 0.2, "y": 0.75 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "Star",   "x": 0.45, "y": 0.42, "r": 32, "mass": 4500, "color": 16769062, "isStar": true },
+        { "name": "Green",  "x": 0.2,  "y": 0.3,  "r": 16, "mass": 500,  "color": 8965631 },
+        { "name": "Target", "x": 0.8,  "y": 0.7,  "r": 20, "mass": 1100, "color": 11184895 }
+      ],
+      "collectibles": [
+        { "x": 0.36, "y": 0.58, "type": "score", "amount": 150 },
+        { "x": 0.62, "y": 0.24, "type": "fuel", "amount": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Basic Sling",
+      "params": { "globalG": 0.018, "maxSpeed": 24, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.55, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 140 } },
+      "start": { "x": 0.18, "y": 0.7 },
+      "targetIndex": 1,
+      "planets": [
+        { "name": "Blue",   "x": 0.5, "y": 0.42, "r": 18, "mass": 900,  "color": 6736895 },
+        { "name": "Target", "x": 0.78, "y": 0.55, "r": 20, "mass": 1100, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.58, "y": 0.32, "type": "score", "amount": 100 } ]
+    },
+    {
+      "id": 4,
+      "name": "Twin Pull",
+      "params": { "globalG": 0.019, "maxSpeed": 25, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.55, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 140 } },
+      "start": { "x": 0.15, "y": 0.3 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "Green", "x": 0.42, "y": 0.35, "r": 16, "mass": 700, "color": 8965631 },
+        { "name": "Red",   "x": 0.58, "y": 0.6,  "r": 18, "mass": 900, "color": 16733562 },
+        { "name": "Goal",  "x": 0.84, "y": 0.7,  "r": 20, "mass": 1200, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.47, "y": 0.48, "type": "fuel", "amount": 3 } ]
+    },
+    {
+      "id": 5,
+      "name": "Star Skim",
+      "params": { "globalG": 0.018, "maxSpeed": 26, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.6, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 140 } },
+      "start": { "x": 0.2, "y": 0.2 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "Star",  "x": 0.52, "y": 0.5,  "r": 34, "mass": 5200, "color": 16769062, "isStar": true },
+        { "name": "Blue",  "x": 0.33, "y": 0.32, "r": 16, "mass": 650,  "color": 6736895 },
+        { "name": "Goal",  "x": 0.82, "y": 0.76, "r": 20, "mass": 1100, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.6, "y": 0.42, "type": "score", "amount": 200 } ]
+    },
+    {
+      "id": 6,
+      "name": "Orchard",
+      "params": { "globalG": 0.019, "maxSpeed": 26, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.6, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 140 } },
+      "start": { "x": 0.14, "y": 0.8 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "Pink",  "x": 0.35, "y": 0.3,  "r": 16, "mass": 600,  "color": 16744566 },
+        { "name": "Green", "x": 0.55, "y": 0.55, "r": 18, "mass": 900,  "color": 8965631 },
+        { "name": "Blue",  "x": 0.38, "y": 0.72, "r": 14, "mass": 500,  "color": 6736895 },
+        { "name": "Goal",  "x": 0.82, "y": 0.2,  "r": 20, "mass": 1200, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.5, "y": 0.44, "type": "fuel", "amount": 3 } ]
+    },
+    {
+      "id": 7,
+      "name": "Thread the Gap",
+      "params": { "globalG": 0.02, "maxSpeed": 26, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.65, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 130 } },
+      "start": { "x": 0.22, "y": 0.7 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "TwinA", "x": 0.48, "y": 0.44, "r": 18, "mass": 950,  "color": 11184810 },
+        { "name": "TwinB", "x": 0.58, "y": 0.52, "r": 18, "mass": 950,  "color": 11382189 },
+        { "name": "Goal",  "x": 0.86, "y": 0.62, "r": 20, "mass": 1200, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.53, "y": 0.49, "type": "score", "amount": 250 } ]
+    },
+    {
+      "id": 8,
+      "name": "Triad",
+      "params": { "globalG": 0.021, "maxSpeed": 27, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.65, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.6, "tapImpulse": 0.006, "cooldownMs": 130 } },
+      "start": { "x": 0.12, "y": 0.25 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "A", "x": 0.38, "y": 0.3,  "r": 16, "mass": 700, "color": 11184810 },
+        { "name": "B", "x": 0.58, "y": 0.38, "r": 18, "mass": 900, "color": 16733562 },
+        { "name": "C", "x": 0.52, "y": 0.65, "r": 16, "mass": 800, "color": 6736895 },
+        { "name": "Goal", "x": 0.82, "y": 0.78, "r": 20, "mass": 1200, "color": 11184895 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Star Corridor",
+      "params": { "globalG": 0.02, "maxSpeed": 28, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.7, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.65, "tapImpulse": 0.006, "cooldownMs": 130 } },
+      "start": { "x": 0.18, "y": 0.16 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "Star",  "x": 0.5,  "y": 0.5,  "r": 36, "mass": 5400, "color": 16769062, "isStar": true },
+        { "name": "Blue",  "x": 0.42, "y": 0.28, "r": 16, "mass": 700,  "color": 6736895 },
+        { "name": "Goal",  "x": 0.84, "y": 0.72, "r": 20, "mass": 1200, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.5, "y": 0.34, "type": "shield", "durationMs": 6000 } ]
+    },
+    {
+      "id": 10,
+      "name": "Pendulum",
+      "params": { "globalG": 0.021, "maxSpeed": 28, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.7, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.65, "tapImpulse": 0.006, "cooldownMs": 130 } },
+      "start": { "x": 0.2, "y": 0.82 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "Left",  "x": 0.46, "y": 0.4,  "r": 18, "mass": 950,  "color": 11184810 },
+        { "name": "Right", "x": 0.6,  "y": 0.6,  "r": 18, "mass": 950,  "color": 11382189 },
+        { "name": "Goal",  "x": 0.84, "y": 0.26, "r": 20, "mass": 1200, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.52, "y": 0.5, "type": "time", "seconds": -5 } ]
+    },
+    {
+      "id": 11,
+      "name": "Switchbacks",
+      "params": { "globalG": 0.022, "maxSpeed": 29, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.7, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.65, "tapImpulse": 0.006, "cooldownMs": 120 } },
+      "start": { "x": 0.18, "y": 0.78 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "A", "x": 0.38, "y": 0.32, "r": 16, "mass": 800, "color": 11184810 },
+        { "name": "B", "x": 0.52, "y": 0.48, "r": 16, "mass": 800, "color": 16733562 },
+        { "name": "C", "x": 0.62, "y": 0.64, "r": 16, "mass": 800, "color": 6736895 },
+        { "name": "Goal", "x": 0.86, "y": 0.74, "r": 20, "mass": 1300, "color": 11184895 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hot Zone",
+      "params": { "globalG": 0.022, "maxSpeed": 30, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.75, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.7, "tapImpulse": 0.006, "cooldownMs": 120 } },
+      "start": { "x": 0.16, "y": 0.22 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "Star",  "x": 0.52, "y": 0.5,  "r": 38, "mass": 5600, "color": 16769062, "isStar": true },
+        { "name": "Green", "x": 0.32, "y": 0.3,  "r": 16, "mass": 750,  "color": 8965631 },
+        { "name": "Blue",  "x": 0.7,  "y": 0.68, "r": 18, "mass": 900,  "color": 6736895 },
+        { "name": "Goal",  "x": 0.86, "y": 0.26, "r": 20, "mass": 1300, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.52, "y": 0.36, "type": "shield", "durationMs": 7000 } ]
+    },
+    {
+      "id": 13,
+      "name": "Grav Brake",
+      "params": { "globalG": 0.023, "maxSpeed": 30, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.75, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.7, "tapImpulse": 0.006, "cooldownMs": 120 } },
+      "start": { "x": 0.18, "y": 0.78 },
+      "targetIndex": 1,
+      "planets": [
+        { "name": "Heavy", "x": 0.46, "y": 0.42, "r": 22, "mass": 1500, "color": 11184810 },
+        { "name": "Goal",  "x": 0.82, "y": 0.26, "r": 20, "mass": 1300, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.54, "y": 0.52, "type": "gravity", "mul": 0.75, "durationMs": 6000 } ]
+    },
+    {
+      "id": 14,
+      "name": "Spiral",
+      "params": { "globalG": 0.024, "maxSpeed": 31, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.78, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.7, "tapImpulse": 0.006, "cooldownMs": 110 } },
+      "start": { "x": 0.12, "y": 0.82 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "A", "x": 0.36, "y": 0.28, "r": 14, "mass": 700, "color": 16744566 },
+        { "name": "B", "x": 0.52, "y": 0.38, "r": 16, "mass": 850, "color": 11382189 },
+        { "name": "C", "x": 0.6,  "y": 0.54, "r": 18, "mass": 950, "color": 11184810 },
+        { "name": "Goal", "x": 0.86, "y": 0.7,  "r": 20, "mass": 1300, "color": 11184895 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Relay",
+      "params": { "globalG": 0.024, "maxSpeed": 31, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 16, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.8, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.75, "tapImpulse": 0.006, "cooldownMs": 110 } },
+      "start": { "x": 0.18, "y": 0.2 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "P1", "x": 0.42, "y": 0.32, "r": 16, "mass": 850, "color": 11184810 },
+        { "name": "P2", "x": 0.6,  "y": 0.48, "r": 16, "mass": 850, "color": 6736895 },
+        { "name": "Goal", "x": 0.82, "y": 0.64, "r": 20, "mass": 1400, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.5, "y": 0.4, "type": "time", "seconds": -6 } ]
+    },
+    {
+      "id": 16,
+      "name": "Binary Star",
+      "params": { "globalG": 0.025, "maxSpeed": 32, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 18, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.82, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.8, "tapImpulse": 0.006, "cooldownMs": 110 } },
+      "start": { "x": 0.14, "y": 0.7 },
+      "targetIndex": 2,
+      "planets": [
+        { "name": "StarA", "x": 0.44, "y": 0.46, "r": 30, "mass": 5200, "color": 16769062, "isStar": true },
+        { "name": "StarB", "x": 0.58, "y": 0.52, "r": 28, "mass": 4800, "color": 16769062, "isStar": true },
+        { "name": "Goal",  "x": 0.84, "y": 0.22, "r": 20, "mass": 1400, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.5, "y": 0.36, "type": "shield", "durationMs": 7000 } ]
+    },
+    {
+      "id": 17,
+      "name": "Rings",
+      "params": { "globalG": 0.025, "maxSpeed": 32, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 18, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.85, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.8, "tapImpulse": 0.006, "cooldownMs": 100 } },
+      "start": { "x": 0.2, "y": 0.82 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "Ring1", "x": 0.42, "y": 0.36, "r": 16, "mass": 900,  "color": 11184810 },
+        { "name": "Ring2", "x": 0.5,  "y": 0.48, "r": 18, "mass": 1000, "color": 11382189 },
+        { "name": "Ring3", "x": 0.58, "y": 0.6,  "r": 16, "mass": 900,  "color": 6736895 },
+        { "name": "Goal",  "x": 0.84, "y": 0.74, "r": 20, "mass": 1400, "color": 11184895 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Grav Maze",
+      "params": { "globalG": 0.026, "maxSpeed": 33, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 18, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.85, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.8, "tapImpulse": 0.006, "cooldownMs": 100 } },
+      "start": { "x": 0.12, "y": 0.18 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "P1", "x": 0.32, "y": 0.28, "r": 14, "mass": 700,  "color": 11184810 },
+        { "name": "P2", "x": 0.46, "y": 0.38, "r": 16, "mass": 850,  "color": 16733562 },
+        { "name": "P3", "x": 0.6,  "y": 0.52, "r": 18, "mass": 950,  "color": 6736895 },
+        { "name": "Goal", "x": 0.84, "y": 0.7,  "r": 20, "mass": 1500, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.5, "y": 0.44, "type": "time", "seconds": -7 } ]
+    },
+    {
+      "id": 19,
+      "name": "Edge Runner",
+      "params": { "globalG": 0.026, "maxSpeed": 34, "frictionAir": 0.002, "fuel": 11, "nearClampAdd": 18, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.88, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.85, "tapImpulse": 0.006, "cooldownMs": 90 } },
+      "start": { "x": 0.14, "y": 0.86 },
+      "targetIndex": 1,
+      "planets": [
+        { "name": "Heavy", "x": 0.52, "y": 0.6,  "r": 22, "mass": 1600, "color": 11184810 },
+        { "name": "Goal",  "x": 0.84, "y": 0.22, "r": 20, "mass": 1500, "color": 11184895 }
+      ],
+      "collectibles": [ { "x": 0.56, "y": 0.5, "type": "gravity", "mul": 0.7, "durationMs": 6000 } ]
+    },
+    {
+      "id": 20,
+      "name": "Finale",
+      "params": { "globalG": 0.027, "maxSpeed": 36, "frictionAir": 0.002, "fuel": 12, "nearClampAdd": 18, "captureExtra": 14, "launch": { "baseCost": 6, "perPower": 0.9, "scale": 0.012, "cap": 8 }, "burn": { "tapCost": 0.9, "tapImpulse": 0.006, "cooldownMs": 90 } },
+      "start": { "x": 0.16, "y": 0.14 },
+      "targetIndex": 3,
+      "planets": [
+        { "name": "Star",  "x": 0.5,  "y": 0.5,  "r": 40, "mass": 6000, "color": 16769062, "isStar": true },
+        { "name": "A",     "x": 0.34, "y": 0.32, "r": 16, "mass": 900,  "color": 11184810 },
+        { "name": "B",     "x": 0.66, "y": 0.42, "r": 18, "mass": 1100, "color": 11382189 },
+        { "name": "Goal",  "x": 0.86, "y": 0.74, "r": 20, "mass": 1600, "color": 11184895 }
+      ],
+      "collectibles": [
+        { "x": 0.5, "y": 0.34, "type": "shield", "durationMs": 7000 },
+        { "x": 0.72, "y": 0.6,  "type": "score",  "amount": 400 },
+        { "x": 0.54, "y": 0.68, "type": "time",   "seconds": -8 }
+      ]
+    }
+  ]
+}
